@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+/* Para navegadores WebKit (Chrome, Safari, Edge) */
+.hide-scrollbar::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+/* Opcional: Ocultar la barra en Firefox */
+.hide-scrollbar {
+  scrollbar-width: none;
+}
